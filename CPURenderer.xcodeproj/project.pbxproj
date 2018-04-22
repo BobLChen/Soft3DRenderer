@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2806E6201BB7C98400ABEB26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2806E61F1BB7C98400ABEB26 /* main.cpp */; };
+		2806E6441BB7D4F200ABEB26 /* libSDL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2806E6431BB7D4F200ABEB26 /* libSDL.a */; };
+		2806E6471BB7D61D00ABEB26 /* SDLMain.h in Sources */ = {isa = PBXBuildFile; fileRef = 2806E6451BB7D61D00ABEB26 /* SDLMain.h */; };
+		2806E6481BB7D61D00ABEB26 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806E6461BB7D61D00ABEB26 /* SDLMain.m */; };
+		2806E6521BB7D70B00ABEB26 /* Matrix3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2806E6491BB7D70B00ABEB26 /* Matrix3D.cpp */; };
+		2806E6531BB7D70B00ABEB26 /* OBJLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2806E64C1BB7D70B00ABEB26 /* OBJLoader.cpp */; };
+		2806E6541BB7D70B00ABEB26 /* Vector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2806E64E1BB7D70B00ABEB26 /* Vector2D.cpp */; };
+		2806E6551BB7D70B00ABEB26 /* Vector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2806E6501BB7D70B00ABEB26 /* Vector3D.cpp */; };
+		2806E6571BB7D71D00ABEB26 /* suzanne.obj in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2806E6561BB7D71D00ABEB26 /* suzanne.obj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2806E61A1BB7C98400ABEB26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				2806E6571BB7D71D00ABEB26 /* suzanne.obj in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2806E61C1BB7C98400ABEB26 /* CPURenderer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPURenderer; sourceTree = BUILT_PRODUCTS_DIR; };
+		2806E61F1BB7C98400ABEB26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2806E6431BB7D4F200ABEB26 /* libSDL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL.a; path = SDL/lib/libSDL.a; sourceTree = "<group>"; };
+		2806E6451BB7D61D00ABEB26 /* SDLMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDLMain.h; path = CPURenderer/SDLMain.h; sourceTree = "<group>"; };
+		2806E6461BB7D61D00ABEB26 /* SDLMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDLMain.m; path = CPURenderer/SDLMain.m; sourceTree = "<group>"; };
+		2806E6491BB7D70B00ABEB26 /* Matrix3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix3D.cpp; path = CPURenderer/Matrix3D.cpp; sourceTree = "<group>"; };
+		2806E64A1BB7D70B00ABEB26 /* Matrix3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix3D.h; path = CPURenderer/Matrix3D.h; sourceTree = "<group>"; };
+		2806E64B1BB7D70B00ABEB26 /* mmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mmath.h; path = CPURenderer/mmath.h; sourceTree = "<group>"; };
+		2806E64C1BB7D70B00ABEB26 /* OBJLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OBJLoader.cpp; path = CPURenderer/OBJLoader.cpp; sourceTree = "<group>"; };
+		2806E64D1BB7D70B00ABEB26 /* OBJLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBJLoader.h; path = CPURenderer/OBJLoader.h; sourceTree = "<group>"; };
+		2806E64E1BB7D70B00ABEB26 /* Vector2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2D.cpp; path = CPURenderer/Vector2D.cpp; sourceTree = "<group>"; };
+		2806E64F1BB7D70B00ABEB26 /* Vector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector2D.h; path = CPURenderer/Vector2D.h; sourceTree = "<group>"; };
+		2806E6501BB7D70B00ABEB26 /* Vector3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3D.cpp; path = CPURenderer/Vector3D.cpp; sourceTree = "<group>"; };
+		2806E6511BB7D70B00ABEB26 /* Vector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3D.h; path = CPURenderer/Vector3D.h; sourceTree = "<group>"; };
+		2806E6561BB7D71D00ABEB26 /* suzanne.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = suzanne.obj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2806E6191BB7C98400ABEB26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2806E6441BB7D4F200ABEB26 /* libSDL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2806E6131BB7C98400ABEB26 = {
+			isa = PBXGroup;
+			children = (
+				2806E6561BB7D71D00ABEB26 /* suzanne.obj */,
+				2806E6491BB7D70B00ABEB26 /* Matrix3D.cpp */,
+				2806E64A1BB7D70B00ABEB26 /* Matrix3D.h */,
+				2806E64B1BB7D70B00ABEB26 /* mmath.h */,
+				2806E64C1BB7D70B00ABEB26 /* OBJLoader.cpp */,
+				2806E64D1BB7D70B00ABEB26 /* OBJLoader.h */,
+				2806E64E1BB7D70B00ABEB26 /* Vector2D.cpp */,
+				2806E64F1BB7D70B00ABEB26 /* Vector2D.h */,
+				2806E6501BB7D70B00ABEB26 /* Vector3D.cpp */,
+				2806E6511BB7D70B00ABEB26 /* Vector3D.h */,
+				2806E6451BB7D61D00ABEB26 /* SDLMain.h */,
+				2806E6461BB7D61D00ABEB26 /* SDLMain.m */,
+				2806E6431BB7D4F200ABEB26 /* libSDL.a */,
+				2806E61E1BB7C98400ABEB26 /* CPURenderer */,
+				2806E61D1BB7C98400ABEB26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2806E61D1BB7C98400ABEB26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2806E61C1BB7C98400ABEB26 /* CPURenderer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2806E61E1BB7C98400ABEB26 /* CPURenderer */ = {
+			isa = PBXGroup;
+			children = (
+				2806E61F1BB7C98400ABEB26 /* main.cpp */,
+			);
+			path = CPURenderer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2806E61B1BB7C98400ABEB26 /* CPURenderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2806E6231BB7C98400ABEB26 /* Build configuration list for PBXNativeTarget "CPURenderer" */;
+			buildPhases = (
+				2806E6181BB7C98400ABEB26 /* Sources */,
+				2806E6191BB7C98400ABEB26 /* Frameworks */,
+				2806E61A1BB7C98400ABEB26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPURenderer;
+			productName = CPURenderer;
+			productReference = 2806E61C1BB7C98400ABEB26 /* CPURenderer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2806E6141BB7C98400ABEB26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Neil;
+				TargetAttributes = {
+					2806E61B1BB7C98400ABEB26 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 2806E6171BB7C98400ABEB26 /* Build configuration list for PBXProject "CPURenderer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2806E6131BB7C98400ABEB26;
+			productRefGroup = 2806E61D1BB7C98400ABEB26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2806E61B1BB7C98400ABEB26 /* CPURenderer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2806E6181BB7C98400ABEB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2806E6471BB7D61D00ABEB26 /* SDLMain.h in Sources */,
+				2806E6551BB7D70B00ABEB26 /* Vector3D.cpp in Sources */,
+				2806E6521BB7D70B00ABEB26 /* Matrix3D.cpp in Sources */,
+				2806E6541BB7D70B00ABEB26 /* Vector2D.cpp in Sources */,
+				2806E6531BB7D70B00ABEB26 /* OBJLoader.cpp in Sources */,
+				2806E6481BB7D61D00ABEB26 /* SDLMain.m in Sources */,
+				2806E6201BB7C98400ABEB26 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2806E6211BB7C98400ABEB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2806E6221BB7C98400ABEB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2806E6241BB7C98400ABEB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDL/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/SDL/include/";
+			};
+			name = Debug;
+		};
+		2806E6251BB7C98400ABEB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDL/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/SDL/include/";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2806E6171BB7C98400ABEB26 /* Build configuration list for PBXProject "CPURenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2806E6211BB7C98400ABEB26 /* Debug */,
+				2806E6221BB7C98400ABEB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2806E6231BB7C98400ABEB26 /* Build configuration list for PBXNativeTarget "CPURenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2806E6241BB7C98400ABEB26 /* Debug */,
+				2806E6251BB7C98400ABEB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2806E6141BB7C98400ABEB26 /* Project object */;
+}
