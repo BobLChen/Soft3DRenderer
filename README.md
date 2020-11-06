@@ -5,8 +5,6 @@
 # 依赖
 - CMake 12版本以上
 
-# 全平台支持
-
 # Build
 
 ```bash
@@ -16,4 +14,17 @@ cd build
 cmake ..
 ```
 
+# 输出结果
 
+![0.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out0.png?raw=true)
+![1.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out1.png?raw=true)
+![2.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out2.png?raw=true)
+![3.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out3.png?raw=true)
+![4.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out4.png?raw=true)
+![5.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out5.png?raw=true)
+![6.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out6.png?raw=true)
+![7.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out7.png?raw=true)
+![8.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out8.png?raw=true)
+![9.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out9.png?raw=true)
+![10.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out10.png?raw=true)
+![11.png](https://github.com/BobLChen/Soft3DRenderer/blob/master/out11.png?raw=true)
